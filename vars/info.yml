@@ -1,5 +1,5 @@
 aws_id: AKIASOADHDI7IAUCDQRW
 aws_key: xLRtM1rmSGCT+eY3lwXf52+L1Lrf+nl2sZXIhUKU
-aws_region:
+aws_region: us-east-2
 ssh_keyname:
 remote_user: testuser1
