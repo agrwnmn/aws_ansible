@@ -5,6 +5,16 @@ AWS access:
         user - agrw...
         pass - 1Net...
 
+    New user AWS login info
+        user - testuser
+        access key ID - AKIASOADHDI7PQQSTBHW
+        secret access key - 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
+
+    New user2 AWS login info
+        user - testuser1
+        access key ID - AKIASOADHDI7IAUCDQRW
+        secret access key - xLRtM1rmSGCT+eY3lwXf52+L1Lrf+nl2sZXIhUKU
+
 When planning your AWS EC2 Deployment take the following in consideration:
     You will need to plan what resources you need and how to configure them for your deployment.
     This includes answering questions such as:
