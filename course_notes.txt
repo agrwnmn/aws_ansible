@@ -31,7 +31,10 @@ Preparing Ansible for use:
 Adding AWS module dependencies for AWS to use - There are 2 ways to do this. 
     If you have access to sudo you can do the following:
         sudo pip3 install ansible boto boto3
-    If you don't have sudo rights you can do the following:
+    If you don't have access to sudo you can do the following: 
+        pip3 install boto3 --user
+        pip3 install boto --user
+    We also have to install the AWS galaxy collection to use the AWS Ansible Modules:
         ansible-galaxy collection install amazon.aws (side note. This is an easy way to install any packages you may need for ansible)
 
 Create an AWS User and it's Access Key and Secret Key
