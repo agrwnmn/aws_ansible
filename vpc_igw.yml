@@ -5,7 +5,7 @@
   remote_user: testuser1
   gather_facts: false
   vars_files:
-    - vars/info.yml
+    - /Users/lacarter/Documents/Pluralsite_Training/Ansible/aws_ansible/vars/info.yml
 
   tasks:
     - name: create VPC Internet Gateway
