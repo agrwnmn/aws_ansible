@@ -15,8 +15,8 @@
         region: "{{ aws_region }}"
         vpc_id: vpc-0d566902260a2d18b
         state: present 
-      register: igw
+      register: ansibleIGW
 
     - name: igw output
       debug:
-        var: ansibleVPC_IGW
+        var: ansibleIGW
